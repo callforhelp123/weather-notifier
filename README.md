@@ -1,5 +1,7 @@
 # weather-notifier
 
+Communication Contract:
+
 Request from the microservice by sending a POST request to 71.227.231.40:5000/weather, with a dictionary with the keys "lat" and "lon" (associated with their desired values) encoded into JSON format. Use a response variable to capture the results of the POST request. The weather information will be stored in the .text component of the response variable.
 
 For example:
