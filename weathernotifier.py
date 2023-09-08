@@ -3,9 +3,9 @@ from twilio.rest import Client
 import schedule
 import time
 
-owm_api_key = "5f1d3a5a193fe9ed245cd087ddc305a9"
-account_sid = 'AC2c5fd9fe8ee93e7ae67e532710b4fe40'
-auth_token = 'c7a2047461be29624f5c272fc47cc290'
+owm_api_key = "###"
+account_sid = '###'
+auth_token = '###'
 to_phone_number = "+12066973532"
 from_phone_number = "+18142575376"
 lat = str(47.65)
